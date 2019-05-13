@@ -1,0 +1,247 @@
+{
+  "name": "Humanity (Nightside)",
+  "type": "dark",
+  "settings": [
+    {
+      "settings": {
+        "background": "#101010",
+        "caret": "#E3D5C1F0",
+        "foreground": "#E3D5C1F0",
+        "invisibles": "#E3D5C180",
+        "lineHighlight": "#E3D5C121",
+        "selection": "#EFB491"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "fontStyle": "italic ",
+        "foreground": "#D07020A1"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#336A02B0"
+      }
+    },
+    {
+      "name": "String.regexp",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "#922000D1"
+      }
+    },
+    {
+      "name": "String.interpolated",
+      "scope": "string.interpolated",
+      "settings": {
+        "foreground": "#88B858BF"
+      }
+    },
+    {
+      "name": "String...qq",
+      "scope": "String.quoted.other.qq.perl",
+      "settings": {
+        "foreground": "#88B858BF"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "settings": {}
+    },
+    {
+      "name": "Constant.character",
+      "scope": "constant.character",
+      "settings": {}
+    },
+    {
+      "name": "Constant.character.escape",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#0C8CFCBF"
+      }
+    },
+    {
+      "name": "Constant.numeric",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#336A02F0"
+      }
+    },
+    {
+      "name": "Constant.language (aka, built-in constant)",
+      "scope": "constant.language",
+      "settings": {
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#6030B5f1"
+      }
+    },
+    {
+      "name": "Keyword.control",
+      "scope": "Keyword.control",
+      "settings": {
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Keyword.operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#0040FFD1"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "#6030B5F2"
+      }
+    },
+    {
+      "name": "Storage.modifier",
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#922000D1"
+      }
+    },
+    {
+      "name": "Storage.type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#008592F0"
+      }
+    },
+    {
+      "name": "Variable.function (invocation)",
+      "scope": [
+        "variable.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Variable.parameter (function argument)",
+      "scope": "variable.parameter",
+      "settings": {}
+    },
+    {
+      "name": "Variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "",
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "Entity.name",
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "#0C8CFCF0"
+      }
+    },
+    {
+      "name": "Entity.name.section",
+      "scope": "entity.name",
+      "settings": {}
+    },
+    {
+      "name": "Entity.name.tag",
+      "scope": "entity.name.tag",
+      "settings": {}
+    },
+    {
+      "name": "Entity.other.attribute-name",
+      "scope": "entity.other.attribute-name",
+      "settings": {}
+    },
+    {
+      "name": "Entity.name.class",
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Entity.other.inherited-class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#0C8CFC80"
+      }
+    },
+    {
+      "name": "Entity.name.function (definition)",
+      "scope": "entity.name.function",
+      "settings": {}
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": "#922000D1"
+      }
+    },
+    {
+      "name": "Support.function (library function)",
+      "scope": "support.function",
+      "settings": {
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Support.constant (library constant)",
+      "scope": "support.constant",
+      "settings": {
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "Support.class (library class)",
+      "scope": "support.class",
+      "settings": {}
+    },
+    {
+      "name": "Support.type (library type)",
+      "scope": "support.type",
+      "settings": {}
+    },
+    {
+      "name": "Support.other.variable (library variable)",
+      "scope": "support.other.variable",
+      "settings": {
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "",
+        "background": "#E06058F7"
+      }
+    }
+  ],
+  "uuid": "19c99f50-e083-40ba-9f90-1d3044c4f37b",
+  "colorSpaceName": "sRGB",
+  "semanticClass": "theme.dark.humanity~nightside",
+  "author": "Roy Ivy III",
+  "comment": "* based on `Humane` by Damien Guard"
+}
